@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
  * main - Prints the first 98 Fibonacci numbers
  *
@@ -7,7 +8,7 @@
  */
 int main(void)
 {
-	int c, boolean, boolean;
+	int c, boolean, boolean2;
 	long int n1, n2, fn, fn2, n11, n22;
 
 	n1 = 1;
@@ -25,7 +26,7 @@ int main(void)
 		}
 		else
 		{
-			if (boolean)
+			if (boolean2)
 			{
 				n11 = n1 % 1000000000;
 				n22 = n2 % 1000000000;
